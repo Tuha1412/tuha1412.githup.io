@@ -1,0 +1,235 @@
+*{margin: 0; padding: 0;} 
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+}
+.container{
+    width: 90%;
+    margin: 2rem auto;
+    /* position: fixed;
+    top: 0rem;
+    left: 0rem; */
+}
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.col-lg-7 .main__menu{
+    height: 100%;
+}
+.col-lg-7 .main__menu .list{ 
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0rem;
+}
+.col-lg-7 .main__menu .list li a{
+    font-size: 17px;
+    color: #212529;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 2rem;
+    font-weight: 500;
+}
+.col-lg-7 .main__menu .list .active a{
+    border-bottom: 2px solid #AF0788;
+    color: #AF0788;
+}
+.col-lg-3{
+    display: flex;
+    justify-content: flex-end;
+}
+.col-lg-3 .purchase a{
+    padding: 2rem 4rem;
+    background-color: #AF0788;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+main .welcome{
+    width: 100%;
+    background-image: url('main.png');
+    height: 86vh;
+    background-position: center;
+}
+.welcome .container{
+    height: 100%;
+}
+.welcome .container .row{
+    height: 100%;
+}
+.col-lg-12{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__caption{
+    text-align: center;
+}
+.main__caption .caption{
+    color: white;
+    font-size: 75px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.btn{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+    padding: 2rem 4rem;
+    background-color: white;
+    border-radius: 35px;
+    margin: 2rem;
+    transition: 0.7s;
+}
+.btn:hover{
+    color: white;
+    background-color: #C80993;
+}
+.section__title{
+    text-align: center;
+    margin: 10rem;
+}
+.section__title h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #212529;
+}
+.section__title h3 span{
+    font-size: 40px;
+    color: #AF0788;
+    font-weight: 700;
+}
+#demos{
+    background-color: #F5F5F5;
+    margin-top: -2rem;
+    height: 172vh;
+}
+#demos .container .row{
+    display: flex;
+    justify-content: center;
+}
+a.demo__link{
+    text-decoration: none;  
+}
+.col-md-6{
+    background-color: white;
+    padding: 0rem;
+    margin: 2rem;    
+}
+.demo__link .demo-thumb img{
+    width: 100%;
+    height: auto;
+}
+a.demo__link{
+    position: relative;
+}
+.demo-thumb:hover:before{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.56);
+    z-index: 99;
+    transition: .4s;
+    bottom: 0;
+}
+.demo-title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.demo-title h2{
+    font-size: 16px;
+    color: #313131;
+    font-weight: 700;
+}
+.demo-title h2:hover{
+    color: #AF0788;
+}
+#features{
+    background-color: #F4F9FF;
+    margin: -2rem;
+}
+#features .container{
+    padding-bottom: 7rem;
+}
+#features .features-box{
+    text-align: center;
+    padding: 5rem 4rem;
+}
+#features .features-box .features-icon i{
+    font-size: 100px;
+    color: #af0788;
+    margin-bottom: 3rem;
+}
+#features .features-box .features-text h2{
+    color: #313131;
+    font-size: 20px;
+    font-weight: bold;
+}
+#features .container .row .col-lg-4{
+    max-width: 30.3333%;
+}
+.purchase-bg{
+    background-color: #AF0788;
+}
+.purchase-bg .container{
+    padding: 7rem;
+}
+.purchase-bg .purchase-image{
+    margin-bottom: 4rem;
+}
+.thanks h2{
+    font-size: 55px;
+    margin-bottom: 5rem;
+    color: white;
+    font-weight: bold;
+}
+.sale{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 5rem;
+}
+.footer-bg .container{
+    padding: 7rem;
+    text-align: center;
+}
+.list-contact{
+    display: flex;
+}
+.list-contact li{
+    list-style: none;
+    font-size: 30px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+}
+.footer-copyright p{
+    font-size: 20px;
+}
+.footer-copyright p a{
+    text-decoration: none;
+    color:#AF0788;
+}
+
+
+
+
